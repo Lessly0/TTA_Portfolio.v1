@@ -3,6 +3,7 @@
     <head>
         <title> Portfolio v1 </title>
         <style>
+            /* General Styling for the webpage */
             body{
                 background-color: black;
                 color: white;
@@ -10,12 +11,12 @@
             .container{
                 display: flex;
                 height: 100vh;
-        
             }
+
+            /* Styling for the home section */
             .same-margin{
                 margin: auto;
             }
-
             .div-1{
                 width: 50%;
                 text-align: justify;
@@ -30,20 +31,18 @@
                 font-weight: bolder;
                 
             }
-
             .div-2{
                 width: 50%;
                 display: flex;
-                justify-content: center;
-                
+                justify-content: center;   
             }
-
             .div-2 img{
                 border-radius: 5px;
             }
+
+            /* Styling for the skills section*/
             #skills-section{
-                text-align: center;
-                
+                text-align: center;   
             }
             .skills-container{
                 display: flex;
@@ -63,40 +62,35 @@
             }
             .skill-card p{
                 color: gray;
-  
             }
+
+            /* Styling for the work section */
             #work-section{
                 text-align: center;
                 height: 80vh;
-               
             }
             .work-container{
                 display: flex;
                 justify-content: center;
                 color: gray; 
             }
-
             .work-content{
                 border: 1px solid gray;
                 width: 25%;
                 margin: auto 30px;
                 border-radius: 5px;
-            }
-            
+            }            
             .work-content p{
                 padding: 50px 15px;
                 font-size: 14px;
                 font-weight: lighter;
                 text-align: justify; 
             }
-
             .work-content img{
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
-                width: 100%;
-                
+                width: 100%;   
             }
-
             .work-content button{
                 color: gray;
                 background-color: #000;
@@ -108,10 +102,10 @@
                 border-radius: 3px;
             }
 
+            /* Styling for the testimonials section */
             #testimonials-section{
                 text-align: center;
-                margin: 7px 0.5px;
-       
+                padding: 10px 0px;
             }
             .test-container{
                 display: flex;
@@ -126,12 +120,29 @@
                 border-radius: 50%;
         
             }
-
+            .test-words{
+                text-align: justify;
+                padding: 0px 15px;
+                margin-left: 35px;
+            }
+            .test-words p{
+                color: gray;
+                padding: 5px 0px;
+            }
+            .test-words button{
+                border: none;
+                border-radius: 3px;
+                padding: 15px 23px;
+                font: 12px;
+                font-weight: bold;
+                color: #ffff;
+                background-color: #7e74f1;
+                cursor: pointer;
+            } 
         </style>
     </head>
 
     <body>
-
         <section id="home-section">
             <div class="container">
                 <div class="same-margin div-1">
@@ -140,7 +151,6 @@
                         <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat commodi provident modi blanditiis. Deleniti numquam maxime, nam aut blanditiis debitis repudiandae. Sit voluptates, aliquam quo perferendis nostrum cumque aut voluptatem.</p>
                     </div>
                 </div>
-
                 <div class="same-margin div-2">
                     <img src="./Male-member.jpg" height="340" width="300" alt="user image">    
                 </div>
@@ -167,28 +177,23 @@
 
         <section id="work-section">
             <h1> Worked on </h1>
-
             <div class="work-container">
                 <div class="work-content">
                     <img src="./Work_image.jpg" alt="Previous work 1" height="250" width="334" >
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nihil error reiciendis nostrum commodi</p>
                     <button> Continue reading</button>
-
                 </div>
 
                 <div class="work-content">
                     <img src="./Work_image.jpg" alt="Previous work 2" height="250" width="334" >
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nihil error reiciendis nostrum commodi</p>
                     <button> Continue reading</button>
-
-
                 </div>
 
                 <div class="work-content">
                     <img src="./Work_image.jpg" alt="Previous work 3" height="250" width="334" >
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nihil error reiciendis nostrum commodi</p>
                     <button> Continue reading</button>
-
                 </div>
             </div>
         </section>
@@ -199,16 +204,11 @@
                     <h1> John Doe </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi at provident perspiciatis pariatur asperiores veritatis tempore quis, temporibus facilis eius similique voluptates libero.</p>
                     <button> Read more ></button>
-
                 </div>
                 <div class="test-content test-image">
                     <img src="./Female-member.jpeg" alt="testimonial image" width="300" height="300">
-
                 </div>
             </div>
-
         </section>
-
     </body>
-
 </html>
